@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'sk-modernistregular';
+    src: url('font/sk-modernist-regular-webfont.woff2') format('woff2'),
+         url('font/sk-modernist-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'dancing_scriptregular';
+    src: url('font/dancingscript-variablefont_wght-webfont.woff2') format('woff2'),
+         url('font/dancingscript-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family:'sk-modernistregular';
+    background-color: #fcfafa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "dancing_scriptregular";
+  font-size: 32px;
+}
+
+.box-couleur {
+    display: flex;
+    justify-content: space-between;
+    width: 1080;
+    
+    
+}
+.Small-box{
+    color:#FFFFFF;
+    text-align: center;
+    
+    width: 180px;
+    height:100px;
+}
+.Couleur_primary{
+    background-color:#FF8B7F;
+  
+}
+
+.Couleur_secondary{
+background-color:#FFB97F;
+  
+}
+
+.Couleur_gris-dark{
+    background-color:#484547;
+  
+}
+
+.Couleur_gris-medium-light{
+    background-color:#595556;
+  
+}
+
+.Couleur_gris-light{
+    background-color:#625E5D;
+  
+}
+
+button {
+    /* width: 110px;
+    height: 60px; */
+    color:#fff;
+    border-radius: 8px; 
+    font-size: 22px;
+    padding: 15px; 
+    font-family:'sk-modernistregular';
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    border: none;
+    display: inline-block;
+
+}
+.small{
+    font-size: 11px;
+    padding: 7px;
+    
+}
+.button-primary {
+    background-color: #ff8b7f;
+    
+}
+button:hover {
+     
+        box-shadow: rgba(0, 0, 0, 0.66) 5px 3px 21px 0px; 
+ }
+
+
+  .button-warning {
+    background-color: #ffb97f;
+  }
+  .button-danger {
+    background-color: #b81a09;
+  }
+  .button-info {
+    background-color: #5f73ac;   
+  }
+  .button-success {
+    background-color: #60c175;
+  }
+  .button-regular {
+    background-color:#1c87c9;
+  }
+
+  .form-title {
+    padding: 10px 0;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    }
+    p {
+    font-size: 12px;
+    }
+    hr {
+    color: #a9a9a9;
+    opacity: 0.3;
+    }
+    .main-block-form{
+    max-width: 340px; 
+    min-height: 460px; 
+    padding: 10px 0;
+    margin: auto;
+    border-radius: 5px; 
+    border: solid 1px #ccc;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    background: #ebebeb; 
+    }
+
+    
+    .form-color {
+      background-color: black
+    }
+    form {
+    margin: 0 30px;
+    }
+    .account-type, .gender {
+    margin: 15px 0;
+    }
+    input[type=radio] {
+    display: none;
+    }
+    label#icon {
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+    }
+    label.radio {
+    position: relative;
+    display: inline-block;
+    padding-top: 4px;
+    margin-right: 20px;
+    text-indent: 30px;
+    overflow: visible;
+    cursor: pointer;
+    }
+
+  label.radio:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #1c87c9;
+    }
+    label.radio:after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 4px;
+    top: 8px;
+    left: 4px;
+    border: 3px solid #fff;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+    }
+
+  input[type=radio]:checked + label:after {
+    opacity: 1;
+    }
+
+  input[type=text], input[type=password] {
+    width: calc(100% - 57px);
+    height: 36px;
+    margin: 13px 0 0 -5px;
+    padding-left: 10px; 
+    border-radius: 0 5px 5px 0;
+    border: solid 1px #cbc9c9; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #fff; 
+    }
+
+  input[type=password] {
+    margin-bottom: 15px;
+    }
+
+  #icon {
+    display: inline-block;
+    padding: 9.3px 15px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    background: #1c87c9;
+    color: #fff;
+    text-align: center;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        background-color: #f5f5f5;
+      }
+    .banner{
+        background-image: url("img/ch.jpg");   
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 300px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: 100% 100%; 
+        text-align:center;
+        font-size:32px;
+        color:white;
+        }
+;
+      
