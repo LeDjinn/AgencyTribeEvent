@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="bootstrap.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Document</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">The Event Brite Project</a>
+      <a class="navbar-brand" href="#">The Event Tribe Project</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -26,15 +25,15 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="events_card.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Add event</a>
           </li>
-          
-          <li class="nav-item dropdown show">
+
+          <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
               data-toggle="dropdown"
@@ -44,9 +43,13 @@
               aria-expanded="true"
               >Log in / Sign Up</a
             >
-            <div class="dropdown-menu show">
-              <a class="dropdown-item" href="authentification_form_Log-in.html">Log In </a>
-              <a class="dropdown-item" href="authentification_form_Sign-up.html">Sign Up</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="authentification_form_Log-in.html"
+                >Log In
+              </a>
+              <a class="dropdown-item" href="authentification_form_Sign-up.html"
+                >Sign Up</a
+              >
             </div>
           </li>
         </ul>
@@ -62,12 +65,14 @@
         </form>
       </div>
     </nav>
-
-    
-    <section class="banner"> 
-      BONJOUR
+    <section class="banner">
+      <a class="navbar-brand" href="events_card.html">
+        <button type="button" class="btn btn-primary">
+          Events
+        </button>
+      </a>
     </section>
-     
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
